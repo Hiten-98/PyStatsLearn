@@ -22,7 +22,6 @@ df = pd.read_excel('data.xlsx')
 a = Measure(df)
 print(a.mean('Insulin'))
 
-b = GaussianNaiveBayesClassifier()
 
 X = df.iloc[:, :-1]
 y = df.iloc[:, -1]
