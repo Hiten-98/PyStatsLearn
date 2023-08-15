@@ -14,7 +14,7 @@ pip install PyStatsLearn
 
 ```
 import pandas as pd
-from PyStatsLearn import Measure, GaussianNaiveBayesClassifier
+from PyStatsLearn.PyLearn import Measure, GaussianNaiveBayesClassifier
 from sklearn.model_selection import train_test_split
 
 df = pd.read_excel('data.xlsx')
